@@ -1,123 +1,140 @@
+<!--
+  File: index.html
+  Author: Your Name
+  Date: June 8, 2024
+  Description: This CSS file styles the EventGenius web app, enhancing its appearance and user interface.
+-->
+
+/* General body styling */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    margin: 0; /* Remove default margin for full-width layout */
+    font-family: Arial, sans-serif; /* Set font for the entire document */
+    background-color: #f4f4f4; /* Light gray background color */
+    color: #333; /* Dark gray text color */
 }
 
+/* Header section styling */
 header {
-    background: url('background.jpg') no-repeat center center/cover;
-    height: 100vh;
+    background: url('background.jpg') no-repeat center center/cover; /* Background image with cover mode */
+    height: 100vh; /* Full viewport height */
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column; /* Arrange child elements in a column */
+    justify-content: space-between; /* Space elements evenly within the column */
 }
 
+/* Navigation bar styling */
 nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background: rgba(0, 0, 0, 0.5);
+    justify-content: space-between; /* Space navigation items evenly */
+    align-items: center; /* Center navigation items vertically */
+    padding: 1rem 2rem; /* Padding around navigation */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
 }
 
+/* Logo styling */
 .logo {
     display: flex;
-    align-items: center;
+    align-items: center; /* Align logo image and text horizontally */
 }
 
 .logo img {
-    height: 40px;
-    margin-right: 10px;
+    height: 40px; /* Set logo image height */
+    margin-right: 10px; /* Space between logo image and text */
 }
 
 .logo span {
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: bold;
+    color: #fff; /* White text color */
+    font-size: 1.5rem; /* Larger font size */
+    font-weight: bold; /* Bold text */
 }
 
+/* Navigation links styling */
 .nav-links {
-    list-style: none;
-    display: flex;
+    list-style: none; /* Remove default list style */
+    display: flex; /* Arrange links horizontally */
 }
 
 .nav-links li {
-    margin: 0 1rem;
+    margin: 0 1rem; /* Space between navigation links */
 }
 
 .nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem;
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem; /* Set font size */
 }
 
 .nav-links a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline links on hover */
 }
 
+/* Button styling */
 .btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for buttons */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline block for button-like appearance */
+    font-size: 1rem; /* Set font size */
+    margin: 4px 2px; /* Margin for spacing */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
 }
 
+/* Hero section styling */
 .hero {
-    text-align: center;
-    color: #fff;
-    margin: auto;
-    padding: 0 2rem;
+    text-align: center; /* Center text horizontally */
+    color: #fff; /* White text color */
+    margin: auto; /* Center hero section within header */
+    padding: 0 2rem; /* Padding within hero section */
 }
 
 .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 3rem; /* Large font size for main heading */
+    margin-bottom: 1rem; /* Space below heading */
 }
 
 .hero p {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    font-size: 1.5rem; /* Font size for paragraph */
+    margin-bottom: 2rem; /* Space below paragraph */
 }
 
+/* Booking section styling */
 #booking {
-    padding: 2rem;
-    background: #fff;
-    margin: 2rem auto;
-    max-width: 600px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    padding: 2rem; /* Padding within booking section */
+    background: #fff; /* White background color */
+    margin: 2rem auto; /* Center booking section with margin */
+    max-width: 600px; /* Maximum width of booking section */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
 }
 
 #booking h2 {
-    margin-bottom: 1rem;
-    font-size: 2rem;
+    margin-bottom: 1rem; /* Space below section heading */
+    font-size: 2rem; /* Font size for section heading */
 }
 
+/* Booking form styling */
 #booking-form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Arrange form elements in a column */
 }
 
 #booking-form label,
 #booking-form select,
 #booking-form input {
-    margin-bottom: 1rem;
-    font-size: 1rem;
+    margin-bottom: 1rem; /* Space below form elements */
+    font-size: 1rem; /* Set font size for form elements */
 }
 
 #booking-form button {
-    align-self: flex-start;
+    align-self: flex-start; /* Align button to the start of the form */
 }
 
+/* Total price display styling */
 #total {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    font-weight: bold;
+    margin-top: 1rem; /* Space above total price display */
+    font-size: 1.5rem; /* Font size for total price */
+    font-weight: bold; /* Bold text for emphasis */
 }
