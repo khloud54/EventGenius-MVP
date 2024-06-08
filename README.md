@@ -26,3 +26,26 @@ Consistency: Ensuring visual consistency across different sections of the websit
 
 Futer plan:
 In the next iteration, I plan to add a feature for organizing community events and a mobile app to make event  even more accessible.
+
+Timeline:
+Day 1-2: Planning and Design
+Finalize requirements and create design mockups.
+Set up project repository and basic structure.
+Day 3-5: Development
+Implement the front-end components (HTML, CSS, JavaScript).
+Develop core features such as the booking form and total price calculation.
+Day 6: Testing
+Conduct thorough testing to ensure all features work as expected.
+Fix any bugs or issues identified during testing.
+Day 7: Deployment and Review
+Request feedback and perform final refinements based on the feedback received.
+
+Event Genius was born from a longing for connection amidst the digital cacophony. As a programmer, I craved a platform where my technical skills could dance with human emotion. Crafting it was a challenge - weaving algorithms with user experiences. There were frustrations, bugs, but also exhilaration as Event Genius took shape. Its next iteration holds promise - AI enhancements, sleeker interfaces. Yet, at its core, Event Genius is a reminder of the human spirit behind every line of code. It beckons users to discover and delight, bridging the digital and human realms.
+
+
+![Screenshot 2024-06-08 214424](https://github.com/khloud54/EventGenius-MVP/assets/138794478/5c31aac2-55ef-431c-82ad-854817ffb4fc)
+
+
+
+![Screenshot 2024-06-08 214731](https://github.com/khloud54/EventGenius-MVP/assets/138794478/8904907f-ba69-4033-a8db-97c0b3e886cc)
+
