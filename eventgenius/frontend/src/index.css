@@ -1,12 +1,16 @@
+<!--
+  File: index.css
+  Author: Khloud Awis
+  Date: June 8, 2024
+  Description: These CSS styles define the font families for the body text and code elements
+-->
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0; /* Reset default margin */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; /* Specify font family for body text */
+  -webkit-font-smoothing: antialiased; /* Improve font rendering on WebKit-based browsers */
+  -moz-osx-font-smoothing: grayscale; /* Improve font rendering on macOS */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; /* Specify font family for code elements */
 }
