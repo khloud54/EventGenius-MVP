@@ -1,18 +1,30 @@
-<!DOCTYPE html>
+<!--
+  File: index.html
+  Author: Khloud awis
+  Date: June 8, 2024
+  Description: This HTML file serves as the main page for the EventGenius website, 
+               providing options to ticket sale and event management.
+-->
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EventGenius</title>
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <!-- Navigation bar -->
         <nav>
             <div class="logo">
+                <!-- Company logo -->
                 <img src="logo.png" alt="EventGenius Logo">
+                <!-- Company name -->
                 <span>EventGenius</span>
             </div>
+            <!-- Navigation links -->
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -20,28 +32,60 @@
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#blog">Blog</a></li>
             </ul>
+            <!-- Call to action button -->
             <a href="#get-started" class="btn">Get Started</a>
         </nav>
+        <!-- Hero section with main message -->
         <div class="hero">
             <h1>Optimize Your Event Planning with Ease using EventGenius!</h1>
             <p>Simplify event planning with our comprehensive platform for ticket sales, promotion, and engagement.</p>
-            <a href="#get-started" class="btn">Get Started</a>
+            <!-- Book Now button -->
+            <a href="#booking" class="btn">Book Now</a>
         </div>
     </header>
+    <!-- About section -->
     <section id="about">
-        <!-- About Section Content -->
+        <!-- About Section Content (Placeholder) -->
     </section>
+    <!-- Services section -->
     <section id="services">
-        <!-- Services Section Content -->
+        <!-- Services Section Content (Placeholder) -->
     </section>
+    <!-- Contact section -->
     <section id="contact">
-        <!-- Contact Section Content -->
+        <!-- Contact Section Content (Placeholder) -->
     </section>
+    <!-- Blog section -->
     <section id="blog">
-        <!-- Blog Section Content -->
+        <!-- Blog Section Content (Placeholder) -->
+    </section>
+    <!-- Booking section -->
+    <section id="booking">
+        <h2>Book Your Tickets</h2>
+        <!-- Booking form -->
+        <form id="booking-form">
+            <!-- Event selection dropdown -->
+            <label for="event">Choose Event:</label>
+            <select id="event" name="event">
+                <option value="concert">Concert - $50</option>
+                <option value="conference">Conference - $30</option>
+                <option value="workshop">Workshop - $20</option>
+            </select>
+            <br>
+            <!-- Number of tickets input -->
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" name="tickets" min="1" value="1">
+            <br>
+            <!-- Button to calculate total cost -->
+            <button type="button" onclick="calculateTotal()">Calculate Total</button>
+        </form>
+        <!-- Paragraph to display total cost -->
+        <p id="total"></p>
     </section>
     <footer>
-        <!-- Footer Content -->
+        <!-- Footer Content (Placeholder) -->
     </footer>
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
