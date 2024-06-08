@@ -1,24 +1,33 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+<!--
+  File: CreateEvent.js
+  Author: Khloud Awis
+  Date: June 8, 2024
+  Description: This React component, CreateEvent, allows users to input event details and submit them to create a new event.
+-->
+import React, { useState } from 'react'; // Import React and useState hook
+import axios from 'axios'; // Import Axios for HTTP requests
 
 const CreateEvent = () => {
-  const [event, setEvent] = useState({ name: '', date: '', location: '' });
+  const [event, setEvent] = useState({ name: '', date: '', location: '' }); // State for event details
 
+  // Function to handle input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setEvent((prevEvent) => ({ ...prevEvent, [name]: value }));
   };
 
+  // Function to handle form submission
   const handleSubmit = (e) => {
-    e.preventDefault();
-    axios.post('http://localhost:5000/api/events', event)
+    e.preventDefault(); // Prevent default form submission
+    axios.post('http://localhost:5000/api/events', event) // Send POST request to create event
       .then(() => {
-        alert('Event created successfully!');
-        setEvent({ name: '', date: '', location: '' });
+        alert('Event created successfully!'); // Display success message
+        setEvent({ name: '', date: '', location: '' }); // Clear form inputs
       })
-      .catch(error => console.error('Error creating event:', error));
+      .catch(error => console.error('Error creating event:', error)); // Log error if request fails
   };
 
+  // Render the create event form
   return (
     <div className="create-event">
       <h1>Create Event</h1>
@@ -59,4 +68,4 @@ const CreateEvent = () => {
   );
 };
 
-export default CreateEvent;
+export default CreateEvent; // Export the CreateEvent component
