@@ -43,6 +43,11 @@ Request feedback and perform final refinements based on the feedback received.
 Event Genius was born from a longing for connection amidst the digital cacophony. As a programmer, I craved a platform where my technical skills could dance with human emotion. Crafting it was a challenge - weaving algorithms with user experiences. There were frustrations, bugs, but also exhilaration as Event Genius took shape. Its next iteration holds promise - AI enhancements, sleeker interfaces. Yet, at its core, Event Genius is a reminder of the human spirit behind every line of code. It beckons users to discover and delight, bridging the digital and human realms.
 
 
+here is my blog post:  https://medium.com/@kh.t705042000/my-journey-through-the-final-portfolio-project-eventgenius-9de6dfe925d3
+
+
+
+
 ![Screenshot 2024-06-08 214424](https://github.com/khloud54/EventGenius-MVP/assets/138794478/5c31aac2-55ef-431c-82ad-854817ffb4fc)
 
 
